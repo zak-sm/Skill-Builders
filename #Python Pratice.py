@@ -1,12 +1,15 @@
 #Password Checker
 
-MyPassword = {'password': 'zkal0307'}
+MyPassword = {'zak-sm': 'mint123', 'fi-oby': 'rose123', 'al-kel': 'blue123'}
 
-def PasswordCheck(attempt:str):
+def PasswordCheck():
+    user = str(input('Enter Username: '))
+    if user in MyPassword:
+        password = input('Enter Password: ')
+        if MyPassword[user] == password:
+            print('Access Granted')
+        else:
+            print('Incorrect Password')
+    else: print('No User Found')
     
-    if attempt in MyPassword['password']:
-        print('Access Granted')
-    else:
-        print('Incorrect Password')
-    
-PasswordCheck(attempt = input('Input Passsword: '))
+PasswordCheck()
