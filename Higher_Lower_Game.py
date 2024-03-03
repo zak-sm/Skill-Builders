@@ -5,7 +5,7 @@ def HigherOrLower():
     answer:int = random.randint(1,500)
     correct:bool = False
     while correct == False:
-        userguess:int = int(input('Guess the number between 1 and 100: '))
+        userguess:int = int(input('Guess the number between 1 and 500: '))
         if userguess > answer:
             print('Lower')
         elif userguess < answer:
