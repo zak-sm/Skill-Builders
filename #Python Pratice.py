@@ -7,7 +7,7 @@ def PasswordCheck():
     if user in MyPassword:
         password = input('Enter Password: ')
         if MyPassword[user] == password:
-            print('Access Granted')
+            print('Access Granted!')
         else:
             print('Incorrect Password')
     else: print('No User Found')
