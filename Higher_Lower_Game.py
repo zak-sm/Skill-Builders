@@ -11,14 +11,14 @@ def HigherOrLower():
         try:
             count += 1
             userguess:int = int(input('Guess the number between 1 and 500: '))
-            if userguess > answer:
+            if userguess > answer and userguess <= 500:
                 print('Lower')
             elif userguess < answer:
                 print('Higher!')
             elif userguess == answer:
+                correct = True
                 print(f'You guessed the correct number: {answer}!!')
                 print(f'It took you {count} guesses!')
-                correct = True
                 playAgain()
             elif userguess > 500:
                 print('Whoops! Thats not a valid number, please try again.')
@@ -51,6 +51,7 @@ def playAgain():
     else:
         os.system('cls' if os.name == 'nt' else 'clear') 
         print("Okay, have a good day. Thanks for playing!") 
+
 
 
 
