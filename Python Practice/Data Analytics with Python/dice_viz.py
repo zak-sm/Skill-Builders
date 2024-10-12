@@ -59,6 +59,7 @@ def get_mean(cycles=1) ->list:
 big_sim = get_mean(1000)
 print(big_sim)
 
+#This will create a bar chart showing the mean results of a 6-sided dice roll across 1000 simulations.
 
 ##Now for the visualization part
 title = "Mean results of a 6 Sided Dice roll 1000 times across 1000 simulations"
