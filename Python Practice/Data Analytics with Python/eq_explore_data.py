@@ -53,6 +53,7 @@ fig = px.scatter_geo(
     color=mag, #tells python how to color the points based on their magnitude
     color_continuous_scale='agsunset',#adds a color scale to show differences in magnitude
     labels={'color':'Magnitude'}, #sets the color label as magnitude, its 'color' by default #only takes a dict as argument
-    projection='natural earth',) # modifies the base map to be rounded and shaped like a globe
+    projection='natural earth'# modifies the base map to be rounded and shaped like a globe
+    ,) 
 
 fig.show()
