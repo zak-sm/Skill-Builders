@@ -1,3 +1,13 @@
 .DS_Store
-.venv
-.vscode
+.venv/
+.vscode/
+.log
+
+#ignore enviornment
+.env
+
+#specific directories
+
+ll_env/
+
+__pycache__/
