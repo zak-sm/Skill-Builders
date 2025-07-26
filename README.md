@@ -1,10 +1,10 @@
 
 This repository is a collection of hands-on projects and practice exercises I have done in Python, covering:
 
-- ✅ Core programming & object-oriented design
-- 📊 Data analysis & exploration
-- 🤖 Machine learning models
-- 🌐 Simple API development with Django
+-  Core programming & object-oriented design
+-  Data analysis & exploration
+-  Machine learning models
+-  Simple API development with Django
 
 ---
 
